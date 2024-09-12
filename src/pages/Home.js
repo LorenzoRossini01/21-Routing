@@ -9,7 +9,9 @@ const HomePage = () => {
   return (
     <>
       <h1>Home Page</h1>
-      <button onClick={navigateHandler}>See Error Page</button>
+      <button className="button" onClick={navigateHandler}>
+        See Error Page
+      </button>
     </>
   );
 };

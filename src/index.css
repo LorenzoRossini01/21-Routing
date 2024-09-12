@@ -53,3 +53,28 @@ main {
   margin: 2rem 0;
   text-align: center;
 }
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background-color: var(--color-gray-500);
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.5s cubic-bezier(0, 0.4, 0.58, 1);
+}
+
+.button:hover {
+  background-color: var(--color-primary-900);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+a:hover,
+a.active {
+  color: var(--color-primary-800);
+  text-decoration: underline;
+}

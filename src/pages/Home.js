@@ -4,7 +4,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   function navigateHandler() {
-    navigate("/sadad");
+    navigate("sadad");
   }
   return (
     <>
